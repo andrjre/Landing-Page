@@ -81,6 +81,9 @@ h2{
 
 
 /* start of section 2 */
+.section-2{
+    margin-bottom:100px;
+}
 
 .section-2-header{
     display:flex;
@@ -100,3 +103,63 @@ h2{
     border-radius:25px;
 }
 
+/* end of section 2 */
+
+
+.section-3{
+    background-color:lightgrey;
+    height:500px;
+    margin-bottom:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.quote{
+    font-size:36px;
+    color:#1F2937;
+    font-style:italic;
+
+}
+
+.quote-box{
+   width:500px; 
+}
+
+.paddington{
+    font-weight:bold;
+}
+
+/* end of section 3 */
+
+.section-4{
+    margin-bottom:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-banner{
+    width:700px;
+    height:150px;
+    background-color:rgb(73, 130, 214);
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.cta{
+    color:white;
+}
+
+.big{
+    font-weight:900;
+    font-size:30px;
+    margin-bottom:0;
+}
+
+.small{
+    margin-top:5px;
+}
