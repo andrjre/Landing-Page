@@ -33,13 +33,13 @@ header{
     gap:20px;
 }
 
-button{
+.button-1{
     background-color:rgb(73, 130, 214);
-    border:0;
     color:white;
     border-radius:10px;
     height:35px;
     width:100px;
+    border:0;
 }
 
 h2{
@@ -103,6 +103,10 @@ h2{
     border-radius:25px;
 }
 
+.subtext{
+    max-width:155px;
+}
+
 /* end of section 2 */
 
 
@@ -145,13 +149,13 @@ h2{
     background-color:rgb(73, 130, 214);
     border-radius:10px;
     display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items:center;
+    justify-content: space-between;
+    align-items:flex-start;
 }
 
 .cta{
     color:white;
+    margin-left:150px;
 }
 
 .big{
@@ -160,6 +164,30 @@ h2{
     margin-bottom:0;
 }
 
-.small{
-    margin-top:5px;
+.under{
+    margin-top:0;
+    font-size:15px;
+    font-weight: 400;
+}
+
+.button-2{
+    background-color:rgb(73, 130, 214);
+    color:white;
+    border-radius:10px;
+    height:35px;
+    width:100px;
+    border:2px solid white;
+    margin-right:100px;
+    margin-top:50px;
+}
+
+/* end of section 4 */
+
+footer{
+    background-color:#1F2937;
+    height:100px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
